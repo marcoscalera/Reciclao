@@ -1,0 +1,135 @@
+/*Fonte usada*/
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+/*site*/
+*{
+    background-color: #f5f5f5;
+    font-family: "Roboto";
+}
+.logcad{
+    margin: 20px;
+    background-color: #ffffff;
+}
+.qs{
+    flex-wrap: wrap;
+}
+.jc{
+    justify-content: center;
+    display: flex;
+}
+.bot{
+    background-color: #618c03;
+    color: #f5f5f5;
+    height: 64px;
+    width: 146px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.bot1{
+  background-color: #618c03;
+  color: #f5f5f5;
+  height: 24px;
+  width: 24px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.jf{
+    justify-content: end;
+    display: flex;
+}
+.fundo{
+    background-color: #f2f2f2;
+    color: #222222;
+    font-size: 16px;
+}
+.borda{
+  border-radius: 12px;
+  border-color: unset;
+}
+.tam{
+  height: 32px;
+  width: 240px;
+}
+input[type="number"] {
+  -webkit-appearance: none; /* Remove as setas no Chrome/Safari */
+  -moz-appearance: textfield; /* Remove as setas no Firefox */
+  appearance: none;
+}
+@media(min-width:800px) {
+  .logo{
+    width: 148px;
+    height: 148px;
+  }
+}
